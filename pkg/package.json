@@ -1,0 +1,15 @@
+{
+  "name": "shiritori-wasm",
+  "collaborators": [
+    "tnantoka <tnantoka@bornneet.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "shiritori_wasm_bg.wasm",
+    "shiritori_wasm.js",
+    "shiritori_wasm.d.ts"
+  ],
+  "module": "shiritori_wasm.js",
+  "types": "shiritori_wasm.d.ts",
+  "sideEffects": false
+}
