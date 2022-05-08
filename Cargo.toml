@@ -26,7 +26,7 @@ console_error_panic_hook = { version = "0.1.6", optional = true }
 # Unfortunately, `wee_alloc` requires nightly Rust when targeting wasm for now.
 wee_alloc = { version = "0.4.5", optional = true }
 
-shiritori = { git = "https://github.com/tnantoka/shiritori-rs.git" }
+shiritori = "0.1.1"
 getrandom = { version = "0.2.6", features = ["js"] }
 serde = { version = "1.0.137", features = ["derive"] }
 serde_json = "1.0.81"
